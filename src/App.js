@@ -8,6 +8,7 @@ class App extends Component {
       <>
         <Slider>
           <Header />
+          <body />
         </Slider>
       </>
     )

@@ -1,5 +1,6 @@
 :root {
   font: 16px / 1 sans-serif;
+  background-image: url('./Images/output.svg');
 }
 
 html {
@@ -7,8 +8,10 @@ html {
 }
 
 .body-yo {
-  width: 100%;
-  height: 55rem;
+  width: 120rem;
+  height: 100rem;
+  margin-top: -2rem;
+  margin-left: -1rem;
 }
 
 .slider1H {
@@ -16,18 +19,31 @@ html {
   justify-content: center;
   margin-bottom: 1rem;
   padding-top: 20rem;
+  padding-right: 4.5rem;
+  position: static;
 }
 
 .slider2S {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
+  position: static;
 }
 
 .slider3L {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
+  padding-right: 1rem;
+  position: static;
+}
+
+.sliderA {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  position: static;
 }
 
 .title {
@@ -41,4 +57,44 @@ html {
   display: flex;
   justify-content: center;
   height: 3rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-left: 56rem;
+  padding: 0.5rem 0.8rem 0.8rem 0.5rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+}
+
+.H {
+  margin-left: 2rem;
+  color: rgb(26, 24, 24);
+  position: static;
+}
+
+.S {
+  margin-left: 2rem;
+  color: rgb(26, 24, 24);
+  position: static;
+}
+
+.L {
+  margin-left: 2rem;
+  color: rgb(26, 24, 24);
+  position: static;
+}
+
+.A {
+  margin-right: 3rem;
+  color: rgb(26, 24, 24);
+  position: static;
+}
+
+.number {
+  color: rgb(26, 24, 24);
+  margin-left: 0.5rem;
+  padding-bottom: 2rem;
+  font-size: -5rem;
 }
